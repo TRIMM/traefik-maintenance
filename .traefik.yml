@@ -1,0 +1,14 @@
+displayName: Maintenance Page
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/trimm/traefik-maintenance
+
+summary: 'Maintenance Page'
+
+testData:
+  enabled: true
+  filename: './maintenance_test.html'
+  triggerFilename: './maintenance_test.trigger'
+  httpResponseCode: 503
+  httpContentType: 'text/html; charset=utf-8'
