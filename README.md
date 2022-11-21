@@ -19,14 +19,14 @@ experimental:
   plugins:
     traefik-maintenance:
       moduleName: github.com/TRIMM/traefik-maintenance
-      version: v1.0.0
+      version: v1.0.1
 ```
 
 ### CLI
 
 ```shell
 --experimental.plugins.traefik-maintenance.modulename=github.com/TRIMM/traefik-maintenance
---experimental.plugins.traefik-maintenance.version=v1.0.0
+--experimental.plugins.traefik-maintenance.version=v1.0.1
 ```
 
 ## Dynamic Configuration
