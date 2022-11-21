@@ -1,3 +1,3 @@
-module github.com/trimm/traefik-maintenance
+module github.com/TRIMM/traefik-maintenance
 
 go 1.19

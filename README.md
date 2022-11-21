@@ -18,14 +18,14 @@ It's also possible to provide a JSON (or any other) maintenance response by chan
 experimental:
   plugins:
     traefik-maintenance:
-      moduleName: github.com/trimm/traefik-maintenance
+      moduleName: github.com/TRIMM/traefik-maintenance
       version: v1.0.0
 ```
 
 ### CLI
 
 ```shell
---experimental.plugins.traefik-maintenance.modulename=github.com/trimm/traefik-maintenance
+--experimental.plugins.traefik-maintenance.modulename=github.com/TRIMM/traefik-maintenance
 --experimental.plugins.traefik-maintenance.version=v1.0.0
 ```
 
